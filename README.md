@@ -2,9 +2,9 @@
 An electron based visual tool used to analyse your AngularJS dependency graph. The tool use the output of [AngularJS Architecture Mapper](https://github.com/GuillaumeNachury/AngularJSArchitectureMapper), so please run the mapper befor using this viewer.
 
 <p align="center">
-  <img width="400" height="400" src="__snapshots/deps.jpg">
-  <img width="400" height="400" src="__snapshots/code.jpg">
-  <img width="400" height="400" src="__snapshots/explore.jpg">
+  <img width="400" height="400" src="__snapshots/deps.png">
+  <img width="400" height="400" src="__snapshots/code.png">
+  <img width="400" height="400" src="__snapshots/explore.png">
 </p> 
 
 ## usage
