@@ -1,6 +1,11 @@
 # AngularJS Architecture Explorer
 An electron based visual tool used to analyse your AngularJS dependency graph. The tool use the output of [AngularJS Architecture Mapper](https://github.com/GuillaumeNachury/AngularJSArchitectureMapper), so please run the mapper befor using this viewer.
 
+<p align="center">
+  <img width="400" height="400" src="__snapshots/deps.jpg">
+  <img width="400" height="400" src="__snapshots/code.jpg">
+  <img width="400" height="400" src="__snapshots/explore.jpg">
+</p> 
 
 ## usage
 `yarn` to get this tool dependencies.

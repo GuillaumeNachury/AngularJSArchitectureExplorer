@@ -1,0 +1,24 @@
+.playground-container {
+    flex: 1 1 0%;
+    overflow: auto;
+    display: flex;
+    position: relative;
+}
+
+.playground-node-holder{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.playground-column{
+    height: 100vh;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+line {stroke:rgba(0, 0, 0, .3); stroke-width: 1}
+path {stroke:rgba(0, 0, 0, .3); stroke-width: 1}
+text {fill:#3C3C3C; font-size: 12px}

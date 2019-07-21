@@ -1,0 +1,56 @@
+{
+  "name": "archi-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "main": "public/electron.js",
+  "homepage": "./",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-hotkeys": "^2.0.0-pre5",
+    "react-scripts": "3.0.1",
+    "react-syntax-highlighter": "^10.3.0",
+    "react-virtualized": "^9.21.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "preelectron-pack": "yarn build",
+    "electron-pack": "build -w --config.icon=src/assets/icons/logo.ico",
+    "electron-pack-mac": "build -m --config.icon=src/assets/icons/logo.icns",
+    "electron": "electron ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^5.0.2",
+    "electron-builder": "^20.41.0",
+    "electron-is-dev": "^1.1.0"
+  },
+  "author": "Guillaume Nachury",
+  "description": "Visualization tool that displays ArchiMapper outputs",
+  "build": {
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "src/assets"
+    }
+  }
+}

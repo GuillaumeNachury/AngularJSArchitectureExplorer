@@ -1,0 +1,50 @@
+.node-type-provider{
+    background-color: hsl(0, 70%, 50%);
+}
+
+.node-type-directive{
+    background-color: hsl(55, 70%, 50%);
+}
+
+.node-type-service{
+    background-color: hsl(127, 70%, 50%);
+}
+
+.node-type-controller{
+    background-color: hsl(189, 70%, 50%);
+}
+
+.node-type-factory{
+    background-color: hsl(270, 70%, 50%);
+}
+
+.node-type-filter{
+    background-color: hsl(322, 70%, 50%);
+}
+
+
+.node-container{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    width:fit-content;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    max-width: 180px;
+    min-width: 105px;
+    position: absolute;
+}
+
+.node-name{
+    font-weight: bold;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    cursor: pointer;
+}
+
+.node-file{
+    cursor: pointer; 
+}

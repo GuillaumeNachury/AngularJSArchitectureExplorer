@@ -1,0 +1,16 @@
+.helper-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(173, 173, 173);
+    fill:rgb(173, 173, 173); 
+    font-size: 11px;
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    width: 100%;
+}
+
+.helper-spacer{
+    width : 50px;
+}

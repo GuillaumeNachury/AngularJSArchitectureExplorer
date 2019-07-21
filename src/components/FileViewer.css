@@ -1,0 +1,25 @@
+.fileviewer-container {
+    height: 100%;
+    width: 800px;
+    background-color: rgb(39, 40, 34);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    right: 0;
+    transform: translate3d(800px,0,0);
+    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1) all;
+
+    -webkit-box-shadow: -10px 2px 10px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: -10px 2px 10px -5px rgba(0,0,0,0.3);
+    box-shadow: -10px 2px 10px -5px rgba(0,0,0,0.3);
+}
+.fileviewer-container.fileviewer-open{
+    transform: translate3d(0px,0,0); 
+}
+
+.fileviewer-name{
+    text-align: center;
+    margin: 10px;
+}
